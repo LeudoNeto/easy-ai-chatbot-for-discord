@@ -1,12 +1,13 @@
-[![Run on Repl.it](https://repl.it/badge/github/LeudoNeto/ai-chatbot)](https://replit.com/@LeudoNeto/ai-chatbot)
-
+<a href="https://github.com/LeudoNeto/easy-ai-chatbot-for-discord/fork" target="_blank"><img src="https://img.shields.io/github/forks/LeudoNeto/easy-ai-chatbot-for-discord.svg" target="_blank"></a>
+<a href="https://github.com/LeudoNeto/easy-ai-chatbot-for-discord/fork" target="_blank"><img src="https://img.shields.io/github/stars/LeudoNeto/easy-ai-chatbot-for-discord.svg" target="_blank"></a>
+<a href="https://replit.com/@LeudoNeto/ai-chatbot" target="_blank"><img src="https://repl.it/badge/github/LeudoNeto/ai-chatbot" target="_blank"></a>
 # Easy AI Chatbot for Discord 🤖💬
  
 *a simple Discord AI Chatbot, with channel enabling/desabling command, with a database system for it.*
 
 ## Installation Guide (Self hosting)
 
-><a href="url da fork" target="_blank"><img src="https://img.shields.io/github/forks/{username}/{repo-name}.svg" target="_blank"></a>  <h2> - **Github Fork**</h2>
+><a href="https://github.com/LeudoNeto/easy-ai-chatbot-for-discord/fork" target="_blank"><img src="https://img.shields.io/github/forks/LeudoNeto/easy-ai-chatbot-for-discord.svg" target="_blank"></a>  <h2> - **Github Fork**</h2>
 > 
 > - ` 1. ` in `main.py` Adjust the `Token` and `bot_prefix`
 > 
