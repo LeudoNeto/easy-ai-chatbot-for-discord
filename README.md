@@ -22,9 +22,7 @@
 >
 > - ` 1. ` In the left side bar look for `Secrets (Environemnt)` and click on it
 > 
-> - ` 2. ` Click on the green button ` ▶ Run` (this first time will automatically install the requirements, then it will stop cause u didn't add the token yet)
-> 
-> - ` 3. ` Add a key named `Token` and paste your bot token on the `value`
+> - ` 2. ` Add a key named `Token` and paste your bot token on the `value`
 > 
 > - ` 3. ` (Optional) on shell run `python3 train.py` for training the AI, uncommenting the sections u want to train the bot
 > 
