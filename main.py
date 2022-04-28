@@ -26,6 +26,9 @@ async def enable(ctx: commands.Context):
     archive.write(f'{ctx.message.channel.id}\n')
     archive.close()
     await ctx.send('This channel is now enabled for chatting with the bot')
+    await ctx.send('If you send any of these at the beginning of the message:')
+    await ctx.send('. , - _ > < = : ; + / ~')
+    await ctx.send("I won't consider the message")
   else:
     await ctx.send('This channel was already enabled for chatting with the bot')
 
