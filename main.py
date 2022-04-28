@@ -60,7 +60,7 @@ async def on_message(message):
     if msg.content == 'I have no ideia, please teach me:' and messages[pos+1].author == message.author:
       return
       
-  if check_channel(message.channel.id) and not message.author.bot and message.content not in [f'{bot_prefix}disable',f'{bot_prefix}enable'] and not message.content.startswith(f'{bot_prefix}ignore'):   #ignoring certain conditions, note that if you send the "command" [prefix]ignore the bot will not answer
+  if check_channel(message.channel.id) and not message.author.bot and message.content not in [f'{bot_prefix}disable',f'{bot_prefix}enable'] and message.content[0] not in ['.',',','-','>','<','=','_',':',';','+','/','~']:   #ignoring certain conditions, note that if the message starts with any usual bot prefix, the bot will ignore the message
     speak = message.content
     answer = chatbot.get_response(speak)
     if float(answer.confidence) > 0.1:     #make the bot learn if the answer confidence is lower than 10%
