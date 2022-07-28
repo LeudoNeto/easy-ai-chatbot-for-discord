@@ -69,9 +69,9 @@ async def on_message(message):
     if float(answer.confidence) > 0.1:     #make the bot learn if the answer confidence is lower than 10%
       em = discord.Embed(title=answer, color = message.author.color)
       em.set_footer(text=f"The confidence of this answer was {float(answer.confidence)*100}%")
-      await message.channel.send(embed=em)
+      await message.reply(embed=em)
     else:
-      await message.channel.send('I have no ideia, please teach me:')  #when the bot says it, you can send the message you want its to say when someone sends your previous message
+      await message.reply('I have no ideia, please teach me:')  #when the bot says it, you can send the message you want its to say when someone sends your previous message
 
       def is_correct(m):
         return m.author == message.author and m.channel == message.channel
