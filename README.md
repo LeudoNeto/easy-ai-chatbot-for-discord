@@ -5,6 +5,8 @@
  
 *a simple Discord AI Chatbot, with channel enabling/desabling command, with a database system for it.*
 
+Para ler o ReadMe em portugês: [README](README.ptbr.md)
+
 ## Installation Guide (Self hosting)
 
 ><a href="https://github.com/LeudoNeto/easy-ai-chatbot-for-discord/fork" target="_blank"><img src="https://img.shields.io/github/forks/LeudoNeto/easy-ai-chatbot-for-discord.svg" target="_blank"></a>  <h2> - **Github Fork**</h2>
